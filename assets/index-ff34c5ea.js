@@ -39,7 +39,7 @@
             <main class="content">
                 <div class="recorder-container">
                     <div class="mic-button ${a.recording?"recording":""}" data-action="mic">
-                        <img src="/microphone.svg" alt="Microphone" />
+                        <img src="./microphone.svg" alt="Microphone" />
                     </div>
                     ${a.recording?'<div class="visualizer-wrapper"><canvas id="ptt-visualizer" width="300" height="60" class="visualizer-canvas"></canvas></div>':""}
                     <p class="instruction">${f(n)}</p>
